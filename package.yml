@@ -1,0 +1,20 @@
+name       : nuvola-app-bandcamp
+version    : 2.1
+release    : 1
+source     :
+    - https://github.com/tiliado/nuvola-app-bandcamp/archive/2.1.tar.gz : 89e3a75492250ad1f072490a22bce3680cb513cff3f0c14afb6c1cd53e8ff6c8
+license    : BSD-2-Clause
+component  : desktop.multimedia
+summary    : Bandcamp Integration for Nuvola Player 3.
+description: |
+    Integration of Bandcamp into your linux desktop via Nuvola Player.
+builddeps  :
+    - scour
+    - librsvg-devel
+rundeps    :
+    - nuvolaplayer
+build      : |
+    %make 
+install    : |
+    %make_install DEST="$installdir/usr/share/nuvolaplayer3/web_apps"
+
