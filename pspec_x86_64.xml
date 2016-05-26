@@ -2,8 +2,8 @@
     <Source>
         <Name>nuvola-app-bandcamp</Name>
         <Packager>
-            <Name>Stefan Ric</Name>
-            <Email>stfric369@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>BSD-2-Clause</License>
         <PartOf>desktop.multimedia</PartOf>
@@ -47,8 +47,8 @@
             <Date>2016-05-26</Date>
             <Version>2.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Stefan Ric</Name>
-            <Email>stfric369@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
